@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'your-dockerhub-username/your-image-name'  // Change to your Docker Hub image name
+        DOCKER_IMAGE = 'shaikhs9/pwtask2'  // Change to your Docker Hub image name
         DOCKER_CREDENTIALS = credentials('docker-username-pass')  // Change to your Jenkins Docker username and PAT credentials ID
     }
 
